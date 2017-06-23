@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>אוספים כסף לזמרי?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-96x96.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon-96x96.png" type="image/x-icon">
+    <meta property='og:title' content="אוספים כסף לזמרי?"/>
+    <meta property='og:type' content='Article'/>
+    <meta property='og:site_name' content='DevGadget'/>
+    <meta property='og:image' content='https://devgadget.com/images/DevGadget.jpg'/>
+    <meta property='og:url' content="https://devgadget.com"/>
+    <meta property='og:description' content="A collection of online development tools, including XML , JSON  and HTML utilities , various texts encoders (such as Base64) and much more."/>
+    <meta name="description" content="אוספים כסף לזמרי?" />
+    <meta name="keywords" content="אוספים כסף לזמרי?" />
+    <meta name="robots" content="index, follow, NOODP" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body style="direction:rtl;text-align: right;">
+<div id="container">
+<h1>
+    אוספים כסף לזמרי?
+</h1>
+<h2>
+    התשובה בעוד
+</h2>
+<h2 id="seconds">
+5
+</h2>
+<h2>
+שניות
+</h2>
+</div>
+<script>
+var sec = 5;
+function schedule() {
+    setTimeout(function() {
+        $("#seconds").html(" " + sec + " ");
+        sec = sec - 1;
+            if (sec == 0) {
+                window.location = "https://devgadget.com/cyber-advices.html?utm_source=zimri";
+            }
+            else {
+            schedule()
+            }
+
+    }, 1000);
+};
+schedule();
+
+$(document).ready(function(){
+  $('#container').css({ 'width':'100%', 'text-align':'center' });
+  var h1 = $('h1').height();
+  var h = h1/2;
+  var w1 = $(window).height();
+  var w = w1/2;
+  var m = w - h - 150;
+  $('#container').css("margin-top",m + "px")
+});
+</script>
+<br><br><br><br><br><br>
+<div style="direction:ltr;">
+Powered by <a href="https://devgadget.com/cyber-advices.html">DebGadget - Online tools for developers</a>
+</div>
+</body>
+</html>
